@@ -131,8 +131,8 @@ header {
 
     .navbar {
         position: absolute;
-        top: 100%;
-        right: -100%;
+        right: 2%;
+        bottom: -1500%;
         width: 270px;
         /* height: 29vh; */
         background: var(--main-color);
@@ -162,6 +162,8 @@ header {
     }
 
     .navbar.open {
-        right: 2%;
+        /* top: 100%; */
+        bottom: -350%;
+        background: purple;
     }
 }
